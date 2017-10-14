@@ -1,0 +1,33 @@
+nav{
+	float: left;
+	width: : 1000px;
+	height: 55px;
+	margin-top: 15px;
+	margin-left: 15px;
+	border-style: none;
+    background-color: #232B2B;
+    border-radius: 15px;
+}
+
+nav ul{
+	float: left;
+	margin: 0px;
+	padding: 0 0 0 0;
+	width: 1200px;
+	list-style: none;
+}
+
+nav ul li{
+	display: inline;
+}
+
+nav ul li a{
+	float: left;
+	padding: 15px 50px 20px 25px;
+	font-size: 16px;
+	text-align: center;
+	font-family: Arial sans-serif;
+	text-decoration: none;
+	color: white;
+	outline: none;
+}

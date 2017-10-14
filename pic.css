@@ -1,0 +1,66 @@
+*{
+	background-color: #dcdcdc;
+}
+.main {
+	width: 300px;
+	height: 280px;
+	font-family: Arial sans-serif;
+}
+.main h1 a{
+	font-size: 50px; 
+	padding-bottom: 0;
+	margin: 40px 0 0 26px;
+	text-decoration: none;
+}
+.main p{
+	font-size: 16px;
+	line-height: 18px;
+	margin: -18px 0 0 26px;
+}
+
+.entropy{
+	font-size: 16px;
+	position: absolute; top: 75px; left: 500px;
+	text-align: center;
+	font-family: Arial sans-serif;
+}
+
+.pic1{
+	position: absolute; top: 225px; left: 500px;
+	margin-bottom: 50px;
+}
+.pic1 img{
+	width: 510px;
+	height: 425px;
+}
+.pic1 p{
+	font-size: 16px;
+	text-align: center;
+}
+.pic2{
+	position: absolute; top: 800px;left: 500px;
+}
+
+.pic2 img{
+	width: 510px;
+	height: 425px;
+}
+.pic2 p{
+	font-size: 16px;
+	text-align: center;
+}
+
+
+.list{
+	margin-top: -94px;
+
+}
+.list a{
+	font-size: 16px;
+	font-color: black;
+	text-decoration: none;
+	font-family: Arial sans-serif;
+}
+.list li{
+	list-style-type: none;
+}
