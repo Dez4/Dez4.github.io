@@ -1,48 +1,46 @@
-*{
-	background-color: #dcdcdc;
-}
+
 .main {
-	width: 300px;
-	height: 280px;
-	font-family: Arial sans-serif;
+    width: 300px;
+    height: 280px;
+    font-family: Arial sans-serif;
 }
-.main h1 a{
-	font-size: 50px; 
-	padding-bottom: 0;
-	margin: 40px 0 0 26px;
-	text-decoration: none;
+.main h1 a{ 
+    font-size: 50px; 
+    padding-bottom: 0;
+    margin: 40px 0 0 26px;
+    text-decoration: none;
 }
 .main p{
-	font-size: 16px;
-	line-height: 18px;
-	margin: -18px 0 0 26px;
+    font-size: 16px;
+    line-height: 18px;
+    margin: -18px 0 0 26px;
 }
 
 .entropy{
-	font-size: 16px;
-	position: absolute; top: 75px; left: 500px;
-	text-align: center;
-	font-family: Arial sans-serif;
+    font-size: 16px;
+    position: absolute; top: 75px; left: 500px;
+    text-align: center;
+    font-family: Arial sans-serif;
 	
 }
 
 .intro{
-        position: absolute; top: 250px; left: 480px;
-	font-size: 14px;
-	font-family: Arial sans-serif;
-	text-decoration: none;
+    position: absolute; top: 250px; left: 480px;
+    font-size: 14px;
+    font-family: Arial sans-serif;
+    text-decoration: none;
 }
 
 .list{
-	margin-top: -50px;
+    margin-top: -50px;
 
 }
 .list a{
-	font-size: 16px;
-	font-color: black;
-	text-decoration: none;
-	font-family: Arial sans-serif;
+    font-size: 16px;
+    font-color: black;
+    text-decoration: none;
+    font-family: Arial sans-serif;
 }
 .list li{
-	list-style-type: none;
+    list-style-type: none;
 }
