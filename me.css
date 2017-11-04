@@ -1,33 +1,66 @@
-nav{
+.box{
+	height: 200px;
 	float: left;
-	width: : 980px;
-	height: 55px;
-	margin-top: 15px;
-	margin-left: 15px;
-	border-style: none;
+	border: 1px solid #f60;
+	padding: 5px;
+}
+.container1{
+	float: left;
+	
+	height: 68px;
+	margin-top: 120px;
+	margin-left: 90px;
+	/*border-style: none;
     background-color: #232B2B;
-    border-radius: 15px;
+    border-radius: 15px;*/
 }
 
-nav ul{
+/*.container1 p{
 	float: left;
-	margin: 0px;
+	margin: 100px;
 	padding: 0 0 0 0;
-	width: 950px;
+	width: 100%;
 	list-style: none;
-}
+}*/
 
-nav ul li{
+/*.container1 ul li{
 	display: inline;
+}*/
+
+.container1 p a{
+	/*float: left;
+	padding: 20px 50px 20px 35px;*/
+	font-size: 38px;
+	font-color: black;
+	font-family: Times, TimesNR, 'New Century Schoolbook',
+     Georgia, 'New York';
+	text-decoration: none;
+	
+	outline: none;
 }
 
-nav ul li a{
-	float: left;
-	padding: 15px 50px 15px 38px;
-	font-size: 18px;
-	text-align: center;
-	font-family: Arial sans-serif;
+.container2{
+	float: right;
+	
+	height: 68px;
+	margin-top: 120px;
+	margin-right: 90px;
+	/*border-style: none;
+    background-color: #232B2B;
+    border-radius: 15px;*/
+}
+
+.container2 p a{
+	/*float: left;
+	padding: 20px 50px 20px 35px;*/
+	font-size: 38px;
+	
+	font-family: Times, TimesNR, 'New Century Schoolbook',
+     Georgia, 'New York';
 	text-decoration: none;
-	color:white;
+	
 	outline: none;
+}
+.img{
+	text-align:center;
 }
