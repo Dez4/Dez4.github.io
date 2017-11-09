@@ -6,52 +6,6 @@ body{
     flex-direction: column;
     height: 100%;
 }
-
-.main {
-    width: 300px;
-    height: 280px;
-    font-family: Arial sans-serif;
-}
-.main h1 a{ 
-    font-size: 50px; 
-    padding-bottom: 0;
-    margin: 40px 0 0 26px;
-    text-decoration: none;
-}
-.main p{
-    font-size: 16px;
-    line-height: 18px;
-    margin: -18px 0 0 26px;
-}
-
-.entropy{
-    font-size: 16px;
-    position: absolute; top: 75px; left: 500px;
-    text-align: center;
-    font-family: Arial sans-serif;
-	
-}
-
-.intro{
-    position: absolute; top: 250px; left: 480px;
-    font-size: 14px;
-    font-family: Arial sans-serif;
-    text-decoration: none;
-}
-
-.list{
-    margin-top: -50px;
-
-}
-.list a{
-    font-size: 16px;
-    font-color: black;
-    text-decoration: none;
-    font-family: Arial sans-serif;
-}
-.list li{
-    list-style-type: none;
-}
 header{
    /* 我们希望 header 采用固定的高度，只占用必须的空间 */
    /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
@@ -70,3 +24,49 @@ footer{
    /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
    flex: 0 0 auto;
 }
+.header main {
+    width: 300px;
+    height: 280px;
+    font-family: Arial sans-serif;
+}
+.header main h1 a{ 
+    font-size: 50px; 
+    padding-bottom: 0;
+    margin: 40px 0 0 26px;
+    text-decoration: none;
+}
+.header main p{
+    font-size: 16px;
+    line-height: 18px;
+    margin: -18px 0 0 26px;
+}
+
+.header entropy{
+    font-size: 16px;
+    position: absolute; top: 75px; left: 500px;
+    text-align: center;
+    font-family: Arial sans-serif;
+	
+}
+
+.main-context intro{
+    position: absolute; top: 250px; left: 480px;
+    font-size: 14px;
+    font-family: Arial sans-serif;
+    text-decoration: none;
+}
+
+.main-context list{
+    margin-top: -50px;
+
+}
+.main-context list a{
+    font-size: 16px;
+    font-color: black;
+    text-decoration: none;
+    font-family: Arial sans-serif;
+}
+.main-context list li{
+    list-style-type: none;
+}
+
