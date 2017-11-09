@@ -52,3 +52,8 @@ body{
 .list li{
     list-style-type: none;
 }
+footer{
+   /* 和 header 一样，footer 也采用固定高度*/
+   /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
+   flex: 0 0 auto;
+}
